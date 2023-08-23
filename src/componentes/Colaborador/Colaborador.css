@@ -1,10 +1,19 @@
 .colaborador{
     width: 280px;
     margin-bottom: 24px;
+    position: relative;
 }
 .colaborador .encabezado{
     border-radius: 10px 10px 0px 0px;
     background: #f0f0f0;
+    
+}
+.eliminar{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #f2f2f2;
+    font-size: 20px;
 }
 .colaborador img{
     width: 100px;
