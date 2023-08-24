@@ -2,9 +2,10 @@
     width: 280px;
     margin-bottom: 24px;
     position: relative;
+    cursor: pointer;
 }
 .colaborador .encabezado{
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px ;
     background: #f0f0f0;
     
 }
@@ -20,6 +21,7 @@
     border-radius: 50%;
     position: relative;
     bottom: -50px;
+   
 }
 .colaborador .info{
     background-color: #ffff;

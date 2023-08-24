@@ -11,6 +11,7 @@
     top: 20px;
     right: 20px;
     border: none;
+    cursor: pointer;
 }
 .equipos h3{
     color: #212121;

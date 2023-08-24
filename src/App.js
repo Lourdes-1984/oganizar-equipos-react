@@ -56,7 +56,7 @@ function App() {
     {
       id: uuidv4(),
       titulo: "Programación",
-      colorPrimario: "#57C278 ",
+      colorPrimario: "#57C278",
       colorSecundario: "#D9F7E9",
     },
     {

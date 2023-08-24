@@ -14,7 +14,7 @@ const Equipos = (props) => {
     backgroundColor: hexToRgba(colorPrimario, 0.6),
   };
   const colorBorder = {
-    borderBottomColor: colorPrimario,
+    borderBottomColor: hexToRgba(colorPrimario, 0.6),
   };
 
   return (
@@ -24,7 +24,7 @@ const Equipos = (props) => {
           <input
             type="color"
             className="input-color"
-            value={hexToRgba(colorPrimario, 0.6)}
+            value={colorPrimario}
             onChange={(e) => {
               cambioColor(e.target.value, id);
             }}
